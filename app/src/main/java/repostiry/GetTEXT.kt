@@ -1,0 +1,4 @@
+package repostiry
+
+class GetTEXT {
+}

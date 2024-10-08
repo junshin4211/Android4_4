@@ -35,6 +35,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.android4_4.ui.theme.Android4_4Theme
 import kotlinx.coroutines.launch
+import repostiry.GetTEXT
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -96,6 +97,7 @@ fun FriendList(
             .fillMaxSize()
             .padding(innerPadding)
     ) {
+
         items(friends)
         {
             friend ->
