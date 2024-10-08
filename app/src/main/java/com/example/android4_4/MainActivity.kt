@@ -123,7 +123,8 @@ fun getFriend():List<Friend>{
         Friend("001","IVY","0912343420",R.drawable.baseline_people_24),
         Friend("002","MARY","0900000230",R.drawable.baseline_people_24),
         Friend("003","SUE","0998765432",R.drawable.baseline_people_24),
-        Friend("004","TOM","09123456777",R.drawable.baseline_people_24)
+        Friend("004","TOM","09123456777",R.drawable.baseline_people_24),
+        Friend("005","TOM","09123456777",R.drawable.baseline_people_24)
     )
     return friends
 }
